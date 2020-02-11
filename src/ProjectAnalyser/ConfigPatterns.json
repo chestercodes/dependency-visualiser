@@ -1,0 +1,9 @@
+{
+    "resources": {
+        ";Database=MainDatabase;": "MainDatabase",
+        ";Database=AuthDatabase;": "AuthDatabase"
+    },
+    "projects": {
+        "auth\\.platform\\.com:123": "C:\\allRepos\\auth-service\\src\\AuthService\\AuthService.vbproj"
+    }
+}

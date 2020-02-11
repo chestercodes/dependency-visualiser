@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  visual:
+    build: .
+    volumes:
+      - ./logs:/logs
+      - ./import:/var/lib/neo4j/import
+      - ./data:/data
+      # dont import as it fails to write to the db
+    environment:
+      - NEO4J_AUTH=none
+    ports:
+      - "7687:7687"
+      - "7474:7474"

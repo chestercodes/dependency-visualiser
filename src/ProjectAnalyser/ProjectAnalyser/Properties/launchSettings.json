@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ProjectAnalyser": {
+      "commandName": "Project",
+      "commandLineArgs": "-o C:/dev/ProjectAnalyserData -p C:/dev/allRepos"
+    }
+  }
+}
